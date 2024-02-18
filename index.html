@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Html structure -->
+    <div class="wrapper">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="heading">
+
+                <p class="projname">DevDetective</p>
+
+                <div class="ui-color">
+                    <p data-uiText >DARK</p>
+
+                    <img data-uiIcon src="Images/moon-icon.svg"></img>
+                
+                </div>
+            </div>
+
+            <!-- Search user -->
+
+            <div class="errorMsg"> <p>No search result</p> </div>
+            
+            <div class="searchDiv">
+
+                <div>
+                <img src="Images/search-icon.svg" alt="">
+
+                <input type="text" data-searchUser placeholder="Enter a Github username..." name="name">
+                
+                </div>
+
+                
+                    
+                    <button class="searchBtn">Search</button>
+                
+            </div>
+
+            <!-- Github user Info -->
+
+            <div class="githubInfo">
+
+                <div class="basic-info">
+
+                <img src="" alt="" data-userDp>
+
+                <div>
+                        
+                    <div class="basic-info1">
+                        <p data-username></p>
+
+                        <p data-userJd></p>
+                    </div>
+                    
+                    <div class="basic-info2">
+
+                        <a href="" data-userProfile></a>
+
+                    </div>
+
+                    
+
+                </div>
+
+                </div>  
+
+                <p data-userBio></p>
+
+                <div class="moreInfo">
+
+                    <div class="mainInfo" id="repoCount">
+                        <p class="non-content1">Repos</p>
+                        <p data-repoCount class="info"></p>
+                    </div>
+
+                    <div class="mainInfo" id="follower">
+
+                        <p class="non-content2">Followers</p>
+                        <p data-followerCount class="info"></p>
+                    </div>
+
+                    <div class="mainInfo" id="following">
+                        <p class="non-content3">Following</p>
+                        <p data-followingCount class="info"></p>
+                    </div>
+
+                </div>
+
+
+                <div class="personalInfo">
+
+                    <div id="personalInfo1">
+                    <div class="details">
+                        <img src="Images/location-icon.svg" id="img-location"></img>
+                        <a data-location></a>
+                    </div>
+
+                    <div class="details">
+                        <img src="Images/website-icon.svg"></img>
+                        <a data-blog></a>
+                    </div>
+                    
+                    </div>
+
+                    <div id="personalInfo2">
+
+                    <div class="details">
+                        <img src="Images/twitter-icon.svg"></img>
+                        <a data-twitter></a>
+                    </div>
+
+                    <div class="details">
+
+                        <img src="Images/company-icon.svg"></img>
+                        <a data-company></a>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
